@@ -10,7 +10,7 @@ header{
     position: fixed;
     width:100%;
     background-attachment: fixed;
-    background-size: 1700px 200px;
+    background-size: 1695px 200px;
 }
 
 .container-fluid{
@@ -21,13 +21,13 @@ header{
 .img1{
     height: auto;
     width: auto;
-    padding-left:30px;
+   
 }
 
 .img2{
     height: auto;
     width: auto;
-    padding-right:30px;
+    
 }
 
 footer{
@@ -52,7 +52,7 @@ p{
 }
 
 .row{
-    width: 100%;
+    width: auto;
     height: auto;
     box-shadow: 10px 10px 5px black;
     padding: 15px;
@@ -71,7 +71,7 @@ p{
     
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:1200px){
     .col{
         width: 50%;
     }
